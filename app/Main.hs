@@ -1,6 +1,13 @@
 module Main (main) where
 
-import Lib
+import System.IO
+import qualified Data.Text as T
+import qualified Data.Text.IO as TIO
+import System.Environment
+import Vocab
 
 main :: IO ()
-main = someFunc
+main = do
+    [filename] <- getArgs
+    text <- readFile filename
+    TIO.putStrLn $ T.unwords $ extract $ T.pack text

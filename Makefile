@@ -4,3 +4,5 @@ build:
 	stack build
 test:
 	stack test
+list:
+	stack ls dependencies

@@ -27,6 +27,7 @@ library
   exposed-modules:
       Lib
       Vocab
+      Vocabulary
   other-modules:
       Paths_kelly
   hs-source-dirs:

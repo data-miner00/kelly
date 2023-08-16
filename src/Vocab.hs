@@ -5,7 +5,6 @@ module Vocab
 import Data.Char
 import Data.List (group, sort)
 import qualified Data.Text as T
-import qualified Data.Text.IO as TIO
 import System.Environment
 
 extract :: T.Text -> [T.Text]

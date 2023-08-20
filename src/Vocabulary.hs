@@ -1,6 +1,5 @@
 module Vocabulary (extractVocab, printAllWords, processTextFile) where
 
-import System.FilePath
 import Data.Char
 import Data.List (group, sort)
 import qualified Data.Text as T

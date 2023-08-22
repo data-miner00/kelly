@@ -1,6 +1,11 @@
-module Vocabulary (extractVocab, printAllWords, processTextFile) where
+module Vocabulary
+    ( extractVocab
+    , printAllWords
+    , processTextFile
+    , Vocabulary
+    ) where
 
-import Data.Char
+import Data.Char (isLetter)
 import Data.List (group, sort)
 import qualified Data.Text as T
 import qualified Data.Text.IO as TIO

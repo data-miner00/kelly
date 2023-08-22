@@ -27,6 +27,7 @@ library
   exposed-modules:
       Lib
       Vocab
+      Vocabs
       Vocabulary
   other-modules:
       Paths_kelly
@@ -37,6 +38,7 @@ library
       base >=4.7 && <5
     , containers
     , filepath
+    , fmt
     , text
   default-language: Haskell2010
 
@@ -51,6 +53,7 @@ executable kelly-exe
       base >=4.7 && <5
     , containers
     , filepath
+    , fmt
     , kelly
     , text
   default-language: Haskell2010
@@ -67,6 +70,7 @@ test-suite kelly-test
       base >=4.7 && <5
     , containers
     , filepath
+    , fmt
     , kelly
     , text
   default-language: Haskell2010

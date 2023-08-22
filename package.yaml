@@ -24,6 +24,7 @@ dependencies:
   - text
   - filepath
   - containers
+  - fmt
 
 ghc-options:
   - -Wall

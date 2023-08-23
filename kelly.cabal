@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Utils
       Vocab
       Vocabs
       Vocabulary

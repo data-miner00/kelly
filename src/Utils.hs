@@ -14,6 +14,8 @@ module Utils
     , hasPath
     ) where
 
+import Data.List (sort)
+
 pyList :: Int -> Int -> [Int]
 pyList x y
     | x > y     = []
@@ -85,3 +87,12 @@ hasPath xs x y
         xs' = [ (n,m) | (n,m) <- xs, n /= x ]
     in
         or [ hasPath xs' m y | (n,m) <- xs, n == x ]
+
+descSort :: Ord a => [a] -> [a]
+descSort = reverse . sort
+
+descSort' :: Ord a => [a] -> [a]
+descSort' = \x -> reverse(sort x)
+
+descSort'' :: Ord a => [a] -> [a]
+descSort'' x = reverse (sort x)

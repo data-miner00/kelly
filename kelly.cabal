@@ -25,7 +25,9 @@ source-repository head
 
 library
   exposed-modules:
+      IOUtils
       Lib
+      ProveMap2D
       Utils
       Vocab
       Vocabs

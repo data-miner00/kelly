@@ -5,9 +5,9 @@ module Vocabulary
     , Vocabulary
     ) where
 
-import Data.Char (isLetter)
-import Data.List (group, sort)
-import qualified Data.Text as T
+import           Data.Char    (isLetter)
+import           Data.List    (group, sort)
+import qualified Data.Text    as T
 import qualified Data.Text.IO as TIO
 
 type Entry = (T.Text, Int)

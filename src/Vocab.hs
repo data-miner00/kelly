@@ -2,8 +2,8 @@ module Vocab
     ( extract
     ) where
 
-import Data.Char
-import Data.List (group, sort)
+import           Data.Char
+import           Data.List (group, sort)
 import qualified Data.Text as T
 
 extract :: T.Text -> [T.Text]

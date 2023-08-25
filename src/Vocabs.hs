@@ -9,22 +9,15 @@ module Vocabs
     , processTextFile'
     ) where
 
-import Fmt
-    ( fmt
-    , nameF
-    , unlinesF
-    , build
-    , blockListF'
-    , (+|)
-    , (|+)
-    )
-import Data.List (sortBy)
-import Vocabulary (Vocabulary, extractVocab)
-import Data.Text (Text)
-import qualified Data.Text as T
-import qualified Data.Text.IO as TIO
-import Data.Ord (comparing, Down (Down))
-import Control.Monad (when)
+import           Control.Monad (when)
+import           Data.List     (sortBy)
+import           Data.Ord      (Down (Down), comparing)
+import           Data.Text     (Text)
+import qualified Data.Text     as T
+import qualified Data.Text.IO  as TIO
+import           Fmt           (blockListF', build, fmt, nameF, unlinesF, (+|),
+                                (|+))
+import           Vocabulary    (Vocabulary, extractVocab)
 
 allWords :: Vocabulary -> [Text]
 allWords = map fst

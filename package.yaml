@@ -61,3 +61,9 @@ tests:
       - -with-rtsopts=-N
     dependencies:
       - kelly
+      - hspec
+      - hspec-contrib
+      - QuickCheck
+      - HUnit
+      - tasty
+      - tasty-hunit

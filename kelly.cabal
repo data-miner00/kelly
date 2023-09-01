@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      Folder
       IOUtils
       Lib
       ProveMap2D

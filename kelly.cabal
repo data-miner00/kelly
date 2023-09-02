@@ -29,7 +29,10 @@ library
       Folder
       IOUtils
       Lib
+      Maybe
       ProveMap2D
+      Records
+      Typeclasses
       Utils
       Vocab
       Vocabs

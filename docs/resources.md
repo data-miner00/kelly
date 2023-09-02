@@ -4,6 +4,7 @@
 - [Haskell Stack Guide](https://docs.haskellstack.org/en/stable/GUIDE/)
 - [Data.Text](https://hackage.haskell.org/package/text-2.0.2/docs/Data-Text.html)
 - [hindent: A Haskell indenter](https://chrisdone.com/posts/hindent/)
+- [Hspec](https://hspec.github.io/)
 
 ## Guide
 
@@ -18,6 +19,7 @@
 
 - [Haskell with UTF-8](https://serokell.io/blog/haskell-with-utf8)
 - [Descending sort in Haskell](https://ro-che.info/articles/2016-04-02-descending-sort-haskell)
+- [Your first Stack project (build, test, dist)](https://dev.to/egregors/your-first-stack-project-build-test-dist-10fa)
 
 ## Blogs
 
@@ -26,3 +28,8 @@
 ## Tools
 
 - [Hoogle.org](https://hoogle.haskell.org/)
+
+## Topics
+
+- [Fold](https://wiki.haskell.org/Fold)
+- [Lagrange Polynomial](https://en.wikipedia.org/wiki/Lagrange_polynomial)

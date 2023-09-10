@@ -1,8 +1,8 @@
 -- Not encouraged to use
 module Records where
 
-data Person = Person { name :: String,
-                       age :: Int }
+data Person = Person { name :: String
+                     , age  :: Int }
 
 greet :: Person -> [Char]
 greet (Person n _) = "Hello" ++ n

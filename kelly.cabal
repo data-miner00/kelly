@@ -30,8 +30,10 @@ library
       IOUtils
       Lib
       Maybe
+      Monad
       ProveMap2D
       Records
+      TicTacToe
       Typeclasses
       Utils
       Vocab
